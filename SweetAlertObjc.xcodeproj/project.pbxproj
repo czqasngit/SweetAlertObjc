@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3EE0A2F1BFB0B7B001BB480 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE0A2E1BFB0B7B001BB480 /* main.m */; };
+		C3EE0A321BFB0B7B001BB480 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE0A311BFB0B7B001BB480 /* AppDelegate.m */; };
+		C3EE0A351BFB0B7B001BB480 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE0A341BFB0B7B001BB480 /* ViewController.m */; };
+		C3EE0A381BFB0B7B001BB480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3EE0A361BFB0B7B001BB480 /* Main.storyboard */; };
+		C3EE0A3A1BFB0B7B001BB480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3EE0A391BFB0B7B001BB480 /* Assets.xcassets */; };
+		C3EE0A3D1BFB0B7B001BB480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3EE0A3B1BFB0B7B001BB480 /* LaunchScreen.storyboard */; };
+		C3EE0A471BFB0BAD001BB480 /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EE0A461BFB0BAD001BB480 /* SweetAlert.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C3EE0A2A1BFB0B7B001BB480 /* SweetAlertObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetAlertObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3EE0A2E1BFB0B7B001BB480 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3EE0A301BFB0B7B001BB480 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3EE0A311BFB0B7B001BB480 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3EE0A331BFB0B7B001BB480 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C3EE0A341BFB0B7B001BB480 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C3EE0A371BFB0B7B001BB480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3EE0A391BFB0B7B001BB480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3EE0A3C1BFB0B7B001BB480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3EE0A3E1BFB0B7B001BB480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3EE0A451BFB0BAC001BB480 /* SweetAlertObjc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SweetAlertObjc-Bridging-Header.h"; sourceTree = "<group>"; };
+		C3EE0A461BFB0BAD001BB480 /* SweetAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetAlert.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3EE0A271BFB0B7B001BB480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3EE0A211BFB0B7B001BB480 = {
+			isa = PBXGroup;
+			children = (
+				C3EE0A441BFB0BA3001BB480 /* SweetAlert-Swift */,
+				C3EE0A2C1BFB0B7B001BB480 /* SweetAlertObjc */,
+				C3EE0A2B1BFB0B7B001BB480 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3EE0A2B1BFB0B7B001BB480 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3EE0A2A1BFB0B7B001BB480 /* SweetAlertObjc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3EE0A2C1BFB0B7B001BB480 /* SweetAlertObjc */ = {
+			isa = PBXGroup;
+			children = (
+				C3EE0A301BFB0B7B001BB480 /* AppDelegate.h */,
+				C3EE0A311BFB0B7B001BB480 /* AppDelegate.m */,
+				C3EE0A331BFB0B7B001BB480 /* ViewController.h */,
+				C3EE0A341BFB0B7B001BB480 /* ViewController.m */,
+				C3EE0A361BFB0B7B001BB480 /* Main.storyboard */,
+				C3EE0A391BFB0B7B001BB480 /* Assets.xcassets */,
+				C3EE0A3B1BFB0B7B001BB480 /* LaunchScreen.storyboard */,
+				C3EE0A3E1BFB0B7B001BB480 /* Info.plist */,
+				C3EE0A2D1BFB0B7B001BB480 /* Supporting Files */,
+			);
+			path = SweetAlertObjc;
+			sourceTree = "<group>";
+		};
+		C3EE0A2D1BFB0B7B001BB480 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3EE0A2E1BFB0B7B001BB480 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3EE0A441BFB0BA3001BB480 /* SweetAlert-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				C3EE0A461BFB0BAD001BB480 /* SweetAlert.swift */,
+				C3EE0A451BFB0BAC001BB480 /* SweetAlertObjc-Bridging-Header.h */,
+			);
+			name = "SweetAlert-Swift";
+			path = "SweetAlertObjc/SweetAlert-Swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3EE0A291BFB0B7B001BB480 /* SweetAlertObjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3EE0A411BFB0B7B001BB480 /* Build configuration list for PBXNativeTarget "SweetAlertObjc" */;
+			buildPhases = (
+				C3EE0A261BFB0B7B001BB480 /* Sources */,
+				C3EE0A271BFB0B7B001BB480 /* Frameworks */,
+				C3EE0A281BFB0B7B001BB480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SweetAlertObjc;
+			productName = SweetAlertObjc;
+			productReference = C3EE0A2A1BFB0B7B001BB480 /* SweetAlertObjc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3EE0A221BFB0B7B001BB480 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = legendry;
+				TargetAttributes = {
+					C3EE0A291BFB0B7B001BB480 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = C3EE0A251BFB0B7B001BB480 /* Build configuration list for PBXProject "SweetAlertObjc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3EE0A211BFB0B7B001BB480;
+			productRefGroup = C3EE0A2B1BFB0B7B001BB480 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3EE0A291BFB0B7B001BB480 /* SweetAlertObjc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3EE0A281BFB0B7B001BB480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3EE0A3D1BFB0B7B001BB480 /* LaunchScreen.storyboard in Resources */,
+				C3EE0A3A1BFB0B7B001BB480 /* Assets.xcassets in Resources */,
+				C3EE0A381BFB0B7B001BB480 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3EE0A261BFB0B7B001BB480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3EE0A351BFB0B7B001BB480 /* ViewController.m in Sources */,
+				C3EE0A321BFB0B7B001BB480 /* AppDelegate.m in Sources */,
+				C3EE0A2F1BFB0B7B001BB480 /* main.m in Sources */,
+				C3EE0A471BFB0BAD001BB480 /* SweetAlert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3EE0A361BFB0B7B001BB480 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3EE0A371BFB0B7B001BB480 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3EE0A3B1BFB0B7B001BB480 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3EE0A3C1BFB0B7B001BB480 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3EE0A3F1BFB0B7B001BB480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3EE0A401BFB0B7B001BB480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3EE0A421BFB0B7B001BB480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SweetAlertObjc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = p.czqasn.SweetAlertObjc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SweetAlertObjc/SweetAlert-Swift/SweetAlertObjc-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3EE0A431BFB0B7B001BB480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SweetAlertObjc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = p.czqasn.SweetAlertObjc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SweetAlertObjc/SweetAlert-Swift/SweetAlertObjc-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3EE0A251BFB0B7B001BB480 /* Build configuration list for PBXProject "SweetAlertObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3EE0A3F1BFB0B7B001BB480 /* Debug */,
+				C3EE0A401BFB0B7B001BB480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3EE0A411BFB0B7B001BB480 /* Build configuration list for PBXNativeTarget "SweetAlertObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3EE0A421BFB0B7B001BB480 /* Debug */,
+				C3EE0A431BFB0B7B001BB480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3EE0A221BFB0B7B001BB480 /* Project object */;
+}
