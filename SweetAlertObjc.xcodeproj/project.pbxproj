@@ -13,7 +13,7 @@
 		C3EE0A381BFB0B7B001BB480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3EE0A361BFB0B7B001BB480 /* Main.storyboard */; };
 		C3EE0A3A1BFB0B7B001BB480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3EE0A391BFB0B7B001BB480 /* Assets.xcassets */; };
 		C3EE0A3D1BFB0B7B001BB480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3EE0A3B1BFB0B7B001BB480 /* LaunchScreen.storyboard */; };
-		C3EE0A471BFB0BAD001BB480 /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EE0A461BFB0BAD001BB480 /* SweetAlert.swift */; };
+		C3EE0A4B1BFB2765001BB480 /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EE0A491BFB2765001BB480 /* SweetAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		C3EE0A391BFB0B7B001BB480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3EE0A3C1BFB0B7B001BB480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3EE0A3E1BFB0B7B001BB480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3EE0A451BFB0BAC001BB480 /* SweetAlertObjc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SweetAlertObjc-Bridging-Header.h"; sourceTree = "<group>"; };
-		C3EE0A461BFB0BAD001BB480 /* SweetAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetAlert.swift; sourceTree = "<group>"; };
+		C3EE0A491BFB2765001BB480 /* SweetAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetAlert.swift; sourceTree = "<group>"; };
+		C3EE0A4A1BFB2765001BB480 /* SweetAlertObjc-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SweetAlertObjc-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 		C3EE0A2C1BFB0B7B001BB480 /* SweetAlertObjc */ = {
 			isa = PBXGroup;
 			children = (
-				C3EE0A441BFB0BA3001BB480 /* SweetAlert-Swift */,
+				C3EE0A481BFB2765001BB480 /* SweetAlert-Swift */,
 				C3EE0A301BFB0B7B001BB480 /* AppDelegate.h */,
 				C3EE0A311BFB0B7B001BB480 /* AppDelegate.m */,
 				C3EE0A331BFB0B7B001BB480 /* ViewController.h */,
@@ -83,11 +83,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C3EE0A441BFB0BA3001BB480 /* SweetAlert-Swift */ = {
+		C3EE0A481BFB2765001BB480 /* SweetAlert-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				C3EE0A461BFB0BAD001BB480 /* SweetAlert.swift */,
-				C3EE0A451BFB0BAC001BB480 /* SweetAlertObjc-Bridging-Header.h */,
+				C3EE0A491BFB2765001BB480 /* SweetAlert.swift */,
+				C3EE0A4A1BFB2765001BB480 /* SweetAlertObjc-Bridging-Header.h */,
 			);
 			path = "SweetAlert-Swift";
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 				C3EE0A351BFB0B7B001BB480 /* ViewController.m in Sources */,
 				C3EE0A321BFB0B7B001BB480 /* AppDelegate.m in Sources */,
 				C3EE0A2F1BFB0B7B001BB480 /* main.m in Sources */,
-				C3EE0A471BFB0BAD001BB480 /* SweetAlert.swift in Sources */,
+				C3EE0A4B1BFB2765001BB480 /* SweetAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
