@@ -45,7 +45,6 @@
 		C3EE0A211BFB0B7B001BB480 = {
 			isa = PBXGroup;
 			children = (
-				C3EE0A441BFB0BA3001BB480 /* SweetAlert-Swift */,
 				C3EE0A2C1BFB0B7B001BB480 /* SweetAlertObjc */,
 				C3EE0A2B1BFB0B7B001BB480 /* Products */,
 			);
@@ -62,6 +61,7 @@
 		C3EE0A2C1BFB0B7B001BB480 /* SweetAlertObjc */ = {
 			isa = PBXGroup;
 			children = (
+				C3EE0A441BFB0BA3001BB480 /* SweetAlert-Swift */,
 				C3EE0A301BFB0B7B001BB480 /* AppDelegate.h */,
 				C3EE0A311BFB0B7B001BB480 /* AppDelegate.m */,
 				C3EE0A331BFB0B7B001BB480 /* ViewController.h */,
@@ -89,8 +89,7 @@
 				C3EE0A461BFB0BAD001BB480 /* SweetAlert.swift */,
 				C3EE0A451BFB0BAC001BB480 /* SweetAlertObjc-Bridging-Header.h */,
 			);
-			name = "SweetAlert-Swift";
-			path = "SweetAlertObjc/SweetAlert-Swift";
+			path = "SweetAlert-Swift";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
