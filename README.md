@@ -1,0 +1,2 @@
+# SweetAlertObjc
+SweetAlert是一个很酷的提示效果组件,修改后可以通过Objective-c正常调用SweetAlert.
