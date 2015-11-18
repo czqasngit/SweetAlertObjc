@@ -1,0 +1,7 @@
+require 'rugged'
+require 'linguist'
+
+repo = Rugged::Repository.new('.')
+project = Linguist::Repository.new(repo, repo.head.target_id)
+project.language       #=> "Objective-c"
+project.languages      #=> { "Objective-c" => 119387 }
