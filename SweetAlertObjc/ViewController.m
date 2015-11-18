@@ -41,4 +41,6 @@
 - (IBAction)custom:(id)sender {
     [[SweetAlert getInstance] showAlert:@"Custom" subTitle:@"Custom Subtitle" style:@"cl"];
 }
+
+
 @end
