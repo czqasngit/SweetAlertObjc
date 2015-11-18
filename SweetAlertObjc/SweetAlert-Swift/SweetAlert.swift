@@ -285,7 +285,7 @@ let s_pSweetAlert = SweetAlert()
                 
             case SweetAlert.None:
                 self.animatedView = nil
-                self.imageView = nil 
+                self.imageView = nil
                 break
                 
             default:
