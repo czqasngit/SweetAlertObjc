@@ -270,18 +270,22 @@ let s_pSweetAlert = SweetAlert()
             switch style {
             case SweetAlert.Success:
                 self.animatedView = SuccessAnimatedView()
+                self.imageView = nil
                 break
                 
             case SweetAlert.Error:
                 self.animatedView = CancelAnimatedView()
+                self.imageView = nil
                 break
                 
             case SweetAlert.Warning:
                 self.animatedView = InfoAnimatedView()
+                self.imageView = nil
                 break
                 
             case SweetAlert.None:
                 self.animatedView = nil
+                self.imageView = nil 
                 break
                 
             default:
