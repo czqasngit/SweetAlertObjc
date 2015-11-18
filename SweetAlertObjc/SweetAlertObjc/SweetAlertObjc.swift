@@ -21,9 +21,9 @@ public enum String
     case None
 }
 **/
-let s_pSweetAlert = SweetAlert()
+let s_pSweetAlert = SweetAlertObjc()
 
-@objc public class SweetAlert: UIViewController {
+@objc public class SweetAlertObjc: UIViewController {
     let kBakcgroundTansperancy: CGFloat = 0.7
     let kHeightMargin: CGFloat = 10.0
     let KTopMargin: CGFloat = 20.0
@@ -34,7 +34,7 @@ let s_pSweetAlert = SweetAlert()
     let kButtonHeight: CGFloat = 35.0
     var textViewHeight: CGFloat = 90.0
     let kTitleHeight:CGFloat = 30.0
-    var strongSelf:SweetAlert?
+    var strongSelf:SweetAlertObjc?
     var contentView = UIView()
     var titleLabel: UILabel = UILabel()
     var buttons: [UIButton] = []
@@ -50,7 +50,7 @@ let s_pSweetAlert = SweetAlert()
     public static  let None:String      = "None"
     
     
-    class public func getInstance() -> SweetAlert {
+    class public func getInstance() -> SweetAlertObjc {
         return s_pSweetAlert
         
     }
@@ -224,24 +224,24 @@ let s_pSweetAlert = SweetAlert()
         self.contentView = UIView()
     }
     
-    public func showAlert(title: String) -> SweetAlert {
-        self.showAlert(title, subTitle: nil, style: SweetAlert.None)
+    public func showAlert(title: String) -> SweetAlertObjc {
+        self.showAlert(title, subTitle: nil, style: SweetAlertObjc.None)
         return self
     }
     
-    public func showAlert(title: String, subTitle: String?, style: String) -> SweetAlert {
+    public func showAlert(title: String, subTitle: String?, style: String) -> SweetAlertObjc {
         self.showAlert(title, subTitle: subTitle, style: style, buttonTitle: "OK")
         return self
 
     }
 
-    public func showAlert(title: String, subTitle: String?, style: String,buttonTitle: String, action: ((isOtherButton: Bool) -> Void)? = nil) -> SweetAlert {
+    public func showAlert(title: String, subTitle: String?, style: String,buttonTitle: String, action: ((isOtherButton: Bool) -> Void)? = nil) -> SweetAlertObjc {
         self.showAlert(title, subTitle: subTitle, style: style, buttonTitle: buttonTitle,buttonColor: UIColor.colorFromRGB(0xAEDEF4))
         userAction = action
         return self
     }
     
-    public func showAlert(title: String, subTitle: String?, style: String,buttonTitle: String,buttonColor: UIColor,action: ((isOtherButton: Bool) -> Void)? = nil) -> SweetAlert {
+    public func showAlert(title: String, subTitle: String?, style: String,buttonTitle: String,buttonColor: UIColor,action: ((isOtherButton: Bool) -> Void)? = nil) -> SweetAlertObjc {
         self.showAlert(title, subTitle: subTitle, style: style, buttonTitle: buttonTitle,buttonColor: buttonColor,otherButtonTitle:
             nil)
         userAction = action
@@ -249,7 +249,7 @@ let s_pSweetAlert = SweetAlert()
     }
 
     public func showAlert(title: String, subTitle: String?, style: String,buttonTitle: String,buttonColor: UIColor,otherButtonTitle:
-        String?, action: ((isOtherButton: Bool) -> Void)? = nil) -> SweetAlert {
+        String?, action: ((isOtherButton: Bool) -> Void)? = nil) -> SweetAlertObjc {
             self.showAlert(title, subTitle: subTitle, style: style, buttonTitle: buttonTitle,buttonColor: buttonColor,otherButtonTitle:
                 otherButtonTitle,otherButtonColor: UIColor.redColor())
             userAction = action
@@ -268,22 +268,22 @@ let s_pSweetAlert = SweetAlert()
             self.setupSubtitleTextView()
  
             switch style {
-            case SweetAlert.Success:
+            case SweetAlertObjc.Success:
                 self.animatedView = SuccessAnimatedView()
                 self.imageView = nil
                 break
                 
-            case SweetAlert.Error:
+            case SweetAlertObjc.Error:
                 self.animatedView = CancelAnimatedView()
                 self.imageView = nil
                 break
                 
-            case SweetAlert.Warning:
+            case SweetAlertObjc.Warning:
                 self.animatedView = InfoAnimatedView()
                 self.imageView = nil
                 break
                 
-            case SweetAlert.None:
+            case SweetAlertObjc.None:
                 self.animatedView = nil
                 self.imageView = nil
                 break
