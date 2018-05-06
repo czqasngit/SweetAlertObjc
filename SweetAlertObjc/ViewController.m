@@ -23,23 +23,24 @@
 
 - (IBAction)successed:(id)sender
 {
-    [[SweetAlertObjc getInstance] showAlert:@"Success" subTitle:@"Success Subtitle" style:SweetAlertObjc.Success];
+    [[SweetAlertObjc getInstance] showAlertWithTitle:@"Success" subTitle:@"Success Subtitle" style:SweetAlertObjc.Success];
+
 }
 
 - (IBAction)warning:(id)sender {
-    [[SweetAlertObjc getInstance] showAlert:@"Warning" subTitle:@"Warning Subtitle" style:SweetAlertObjc.Warning];
+    [[SweetAlertObjc getInstance] showAlertWithTitle:@"Warning" subTitle:@"Warning Subtitle" style:SweetAlertObjc.Warning];
 }
 
 - (IBAction)error:(id)sender {
-    [[SweetAlertObjc getInstance] showAlert:@"Error" subTitle:@"Error Subtitle" style:SweetAlertObjc.Error];
+    [[SweetAlertObjc getInstance] showAlertWithTitle:@"Error" subTitle:@"Error Subtitle" style:SweetAlertObjc.Error];
 }
 
 - (IBAction)none:(id)sender {
-    [[SweetAlertObjc getInstance] showAlert:@"None" subTitle:@"None Subtitle" style:SweetAlertObjc.None];
+    [[SweetAlertObjc getInstance] showAlertWithTitle:@"None" subTitle:@"None Subtitle" style:SweetAlertObjc.None];
 }
 
 - (IBAction)custom:(id)sender {
-    [[SweetAlertObjc getInstance] showAlert:@"Custom" subTitle:@"Custom Subtitle" style:@"cl"];
+    [[SweetAlertObjc getInstance] showAlertWithTitle:@"Custom" subTitle:@"Custom Subtitle" style:@"cl"];
 }
 
 
